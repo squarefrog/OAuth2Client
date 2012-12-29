@@ -129,6 +129,11 @@ extern NSString * const NXOAuth2ClientConnectionContextTokenRefresh;
  */
 - (void)authenticateWithAssertionType:(NSURL *)assertionType assertion:(NSString *)assertion;
 
+/*!
+ * Authenticate with username & password (User Credentials Flow)
+ */
+- (void)authenticateWithClientCredentials;
+
 
 #pragma mark Public
 
